@@ -1,0 +1,11 @@
+---activity 1
+CREATE A FOOD MENU WEBSITE in HTML.
+Use the following as nav bar.
+Home
+About 
+Food table
+videos
+Image gallery
+Order form.
+
+Note: create HTML file for  each name above and LINK   your pages together.
