@@ -12,3 +12,9 @@ Note: create HTML file for  each name above and LINK   your pages together.
 
 ---activity 2 - assignment 28th May 2024
 Add content to the web pages
+
+---assets
+fonts - poppings, roboto
+
+    <!-- Delicious Bytes: A Culinary Codeventure -->
+    <!-- Slogan: "Code Your Appetite!" -->
