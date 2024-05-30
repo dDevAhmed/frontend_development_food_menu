@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delicious Bytes</title>
     <link rel="shortcut icon" href="img/cutlery_favicon/icons8-cutlery-windows-11-color-32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -13,19 +14,33 @@
 <body>
     <header>
         <nav class="">
-            <h3 class="nav-logo">Delicious Bytes</h3>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="videos.html">Videos</a></li>
-                <li><a href="order.html">Order</a></li>
-            </ul>
+            <div class="top-nav">
+                <a href="https://ahmedmahmud.vercel.app/" target="_blank">Class Activities <i
+                        class="fa fa-link"></i></a>
+                <ul>
+                    <li><a href="https://github.com/dDevAhmed/" target="_blank">Author</a></li>
+                    <li><a href="https://github.com/dDevAhmed/frontend_development_food_menu" target="_blank">Project's
+                            Github Repo</a></li>
+                </ul>
+            </div>
+            <div class="bottom-nav">
+                <span class="nav-logo">
+                    <img src="img/logo.png" alt="Delicious Bytes Logo">
+                    <h3>Delicious Bytes</h3>
+                </span>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html" class="active-nav-link">Gallery</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li><a href="order.html">Order</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <section class="gallery">
-        <h3>Gallery</h3>
+        <!-- <h3>Gallery</h3> -->
         <div class="container">
             <img src="img/gallery/1.jpg" alt="Food Image">
             <img src="img/gallery/2.webp" alt="Food Image">
